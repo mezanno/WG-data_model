@@ -1,0 +1,145 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://directory.geohistoricaldata.org/iiif/Alm_paris/Alm_paris2/Alm_paris_1789/ListNoms/part_1/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "fr": [
+            "Suppl\u00e9ment."
+        ]
+    },
+    "provider": [
+        {
+            "id": "https://gallica.bnf.fr",
+            "type": "Agent",
+            "label": {
+                "en": [
+                    "Gallica & The SoDUCo Project"
+                ]
+            },
+            "homepage": [
+                {
+                    "id": "https://gallica.bnf.fr",
+                    "type": "Text",
+                    "format": "text/html",
+                    "language": [
+                        "en"
+                    ]
+                }
+            ],
+            "logo": [
+                {
+                    "id": "https://gallica.bnf.fr/accueil/sites/all/modules/custom/gallica_tetierev3/images/Logo_BnF.png",
+                    "type": "Image",
+                    "height": 50,
+                    "width": 110,
+                    "format": "image/png"
+                }
+            ]
+        },
+        {
+            "id": "https://soduco.geohistoricaldata.org",
+            "type": "Agent",
+            "label": {
+                "en": [
+                    "The SoDUCo Project"
+                ]
+            },
+            "homepage": [
+                {
+                    "id": "https://soduco.geohistoricaldata.org",
+                    "type": "Text",
+                    "format": "text/html",
+                    "language": [
+                        "en"
+                    ]
+                }
+            ],
+            "logo": [
+                {
+                    "id": "https://soduco.geohistoricaldata.org/public/images/soduco_logo.png",
+                    "type": "Image",
+                    "height": 350,
+                    "width": 527,
+                    "format": "image/png"
+                }
+            ]
+        }
+    ],
+    "behavior": [
+        "individuals"
+    ],
+    "items": [
+        {
+            "id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1265821s/p429",
+            "type": "Canvas",
+            "label": {
+                "fr": [
+                    "Page 429"
+                ]
+            },
+            "height": 1944,
+            "width": 1140,
+            "thumbnail": [
+                {
+                    "id": "https://gallica.bnf.fr/ark:/12148/bpt6k1265821s/f429.thumbnail",
+                    "type": "Image"
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.io/api/cookbook/recipe/0021-tagging/page/p2/1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://directory.geohistoricaldata.org/iiif/Alm_paris/Alm_paris2/Alm_paris_1789/ListNoms/part_1/p429-tag-2000",
+                            "type": "Annotation",
+                            "motivation": "tagging",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "Boi\u017frot de Joncheres, Med. Clo\u00eetre Saint\nMerry.\n",
+                                "format": "text/plain",
+                                "language": "fr"
+                            },
+                            "target": {
+                                "type": "SpecificResource",
+                                "source": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1265821s/p429",
+                                "selector": {
+                                    "type": "SvgSelector",
+                                    "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M107.65434555413614,284.96858194470406v90.88918939232826h751.4166155838104v-90.88918939232826z\" fill=\"none\" stroke=\"#ff0000\" stroke-opacity=\"0.1\" stroke-width=\"4\"/><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M107.65434555413614,284.96858194470406v47.49851927161217h375.7083077919052v-47.49851927161217z\" fill=\"none\" stroke=\"#7aecec\" stroke-opacity=\"1.0\" stroke-width=\"2\"/></svg>"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1265821s/p429-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1265821s/p429-image",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1265821s/f429/full/full/0/default.jpg",
+                                "type": "Image",
+                                "height": 1944,
+                                "width": 1140,
+                                "service": [
+                                    {
+                                        "@id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1265821s/f429",
+                                        "@type": "ImageService1",
+                                        "profile": "level2"
+                                    }
+                                ],
+                                "format": "image/png"
+                            },
+                            "target": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1265821s/p429"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
